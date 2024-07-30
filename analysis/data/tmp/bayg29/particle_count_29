@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "/home/gian/Documents/PSO/analysis/../tsp.py", line 128, in <module>
+    instance = TSP.read(stdin)
+               ^^^^^^^^^^^^^^^
+  File "/home/gian/Documents/PSO/analysis/../tsp.py", line 115, in read
+    [np.linalg.norm(cities[i]-cities[j]) for j in range(N)]
+                    ~~~~~~~~~^~~~~~~~~~
+ValueError: operands could not be broadcast together with shapes (2,) (0,) 
+Command exited with non-zero status 1
+0.08
+
